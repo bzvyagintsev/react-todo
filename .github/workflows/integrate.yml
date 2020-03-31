@@ -14,5 +14,5 @@ jobs:
           node-version: 12
         #   Clean instal for Ci server
       - run: npm ci
-      - run: npm lint
+      - run: npm run lint
       - run: npm run build
