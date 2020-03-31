@@ -15,6 +15,10 @@ function App() {
     {
       value: "test3",
       isCompleted: false
+    },
+    {
+      value: "test4",
+      isCompleted: false
     }
   ]);
 
