@@ -27,7 +27,7 @@ function App() {
       <form className="todo">
         <ul className="todo__list">
           {todos.map((todo, i) => (
-            <li className={`todo__item ${todo.isCompleted && 'todo__item--checked'}`}>
+            <li key="todo" className={`todo__item ${todo.isCompleted && 'todo__item--checked'}`}>
               <div
                 className="todo__checkbox"
                 onClick={() => toggleTodoAtIndex(i)} />
